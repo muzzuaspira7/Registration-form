@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="innerContainer">
+            <div class="left">
+                <!-- <img src="https://e7.pngegg.com/pngimages/70/751/png-clipart-logo-graphic-design-m-letter-angle-text.png" alt="My Logo"> -->
+            </div>
+            <div class="right">
+                <h1>Registration Form</h1>
+                <form class="forms">
+                    <div class="input">
+                        <label for="fullname" class="fullname">Full Name</label><br>
+                        <input type="text" id="fname" placeholder="Enter Your Name">
+                    </div>
+                    <br>
+                    <div class="input">
+                        <label for="email" class="email">Email</label><br>
+                        <input type="text" id="email" placeholder="Enter Email">
+                    </div>
+                    <br>
+                    <div class="input">
+                        <label for="password" class="password">Password</label><br>
+                        <input type="password" id="pswd" placeholder="Enter Password">
+                    </div>
+                    <br>
+                    <div class="gender">
+                        <p>Select Your Gender</p><br>
+                        
+                        <input type="radio" id="male" name="mygender" value="Male">
+                        <label for="male">Male</label>
+                        
+                        <input type="radio" id="female" name="mygender" value="Female">
+                        <label for="female">Female</label>
+                    </div><br>
+                    <div class="checkbox">
+                        <input type="checkbox" id="tandc1" name="tandc1" value="personal">
+                        <label for="tandc1">Personal Account</label><br>
+                        <input type="checkbox" id="tandc3" name="tandc3" value="accept the terms">
+                        <label for="tandc3">I accept all the terms and conditions.</label>
+                    </div><br>
+                    <div class="submit">
+                        <button class="btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- <div class="acontainer">
+            <h1>Registration Form</h1>
+            <form action="action.php">
+                <div class="input">
+                    <input type="text" placeholder="First Name">
+                </div><br>
+                <div class="input">
+                    <input type="text" placeholder=" Last Name">
+                </div><br>
+                <div class="input">
+                    <input type="text" placeholder="Email">
+                </div><br>
+                <div class="input">
+                    <input type="password" placeholder="Password">
+                </div><br>
+                <div class="gender">
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="mygender" value="Male"> 
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="mygender" value="Female">
+                </div><br>
+                <div class="checkbox">
+                    <input type="checkbox" id="tandc1" name="tandc1" value="personal">
+                    <label for="tandc1">Personal Account</label><br>
+                    <input type="checkbox" id="tandc2" name="tandc2" value="bussiness">
+                    <label for="tandc2"> Bussiness Account</label><br>
+                    <input type="checkbox" id="tandc3" name="tandc3" value="accept the terms">
+                    <label for="tandc3">I accept all the terms and conditions.</label>
+                </div><br>
+                <div class="submit">
+                    <input type="submit" class="sbtn" id="sub">
+                </div>
+            </form>
+        </div> -->
+    </div>
+</body>
+
+</html>
